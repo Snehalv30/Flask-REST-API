@@ -23,32 +23,34 @@ Flask-RESTful
 JSON
 
 # Installation & Setup
-1️⃣ Clone the Repository
-
+## 1️⃣ Clone the Repository
 ```bash
-
-git clone (https://github.com/Snehalv30/Flask-REST-API).git
+git clone https://github.com/Snehalv30/Flask-REST-API.git
+```
 
 # 2️⃣ Create a Virtual Environment (Optional but Recommended)
 ```bash
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # Mac/Linux
+```
 
 # 3️⃣ Install Dependencies
 ```bash
 
-pip install -r requirements.txt.
+pip install -r requirements.txt
+```
 
 # 4️⃣ Run the Application
 ```bash
 python app.py
+```
 The server will start at:
-
-cpp
 ```bash
 http://127.0.0.1:5000
+```
 # API Endpoints 
+```bash
 Method	   Endpoint	        Description
 GET	       /users	          Get all users
 GET	       /users/<id>	    Get user by ID
